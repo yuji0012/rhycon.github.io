@@ -1,0 +1,257 @@
+
+* {
+    padding: 0;
+    margin: 0;
+      margin-top: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth !important;
+    text-decoration: none;
+    list-style: none;
+  }
+
+body{
+background-color:#0d0e0e;
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,900&display=swap" rel="stylesheet">
+
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+a{
+text-decoration: none;
+}
+
+/*navigation*/
+
+
+
+
+.home{
+
+font-size: 27px;
+
+text-shadow: none;
+color :#FFBE79;
+}
+
+
+#contrast{
+margin-left: 90px;
+width: 40px;
+}
+
+
+.navbar{
+
+top: 0;
+left: 0;
+width: 100%;
+padding: 10px 20px;
+background: transparent;
+display: flex;
+
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+
+
+}
+
+.nav{
+display: flex;
+padding-right: 90px;
+}
+.nav a {
+margin-top: 15px;
+font-size: 26px;
+color: #fff;
+
+font-weight: 600;
+margin-left: 45px;
+font-family: 'Roboto', sans-serif;
+
+}
+
+
+.social img{
+padding: 20px;
+}
+
+.logo{
+margin-top: 10px;
+font-family: 'Roboto', sans-serif;
+padding-left: 200px;
+font-size: 30px;
+color: #fff;
+cursor: default;
+font-weight: 600;
+text-decoration: none;
+
+}
+
+
+.element:hover {
+text-shadow:  5px 2px 3px black;
+color: #FFBE79;
+}
+.home:hover{
+text-shadow:  5px 2px 3px black;
+}
+
+
+
+
+
+
+.element{
+position: relative;
+}
+.element::after{
+content: "";
+position: absolute;
+bottom: -3px;
+height: 3px;
+width: 0;
+right: 0;
+background-color: #321996;
+transition: all 700ms ease;
+}
+
+
+.element:hover:after {
+left: 0;
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hidden{
+  margin-left: 300px;
+
+position: absolute;  
+
+margin-top: 300px;
+
+margin-right: 150px;
+
+transition: matrix(-50,-50);
+
+  color: azure;
+
+ font-family:'Roboto',sans-serif;
+
+ height: 10000px;
+
+ min-height: 100vh;
+
+}
+.tittle{
+
+margin-left: 40px;
+
+margin-right: 20px;
+
+
+
+ line-height: 1;
+
+ font-size: 60px;
+
+ margin-bottom: 12px;
+
+ text-align: left;
+
+ line-height: 1.5;
+
+ text-shadow: 3px 2px 3px rgb(95, 82, 113);
+
+
+}
+
+
+h1{
+
+  margin-top: 200px;
+}
+.phone{
+  display: flex;
+
+  justify-content: space-between;
+
+
+}
+
+
+.name{
+
+  text-align: center;
+
+  font-size: 51px;
+
+  font-weight: 900;
+
+  margin-top: 1300px;
+
+color:white ;
+
+padding-bottom: 250px;
+
+}
+
+
+
+
+
+
+
+
+
+                                                                      /*   PRODUCTS */
+.coursera{
+width: 300px;
+height: 300px;
+color: #fff;
+margin-left: 70px;
+margin-right: 70px;
+}
+
+
+.products{
+  display: flex;
+  flex-wrap: 1;
+}
+
+.pro-1{
+  align-items: center;
+  z-index: 100;
+  
+  display: flex;
+}
+
+.course__1{
+  display: flex;
+
+  justify-content: space-between;
+
+
+  margin-left:90px ;
+
+}
+
+h2,p{
+  color: #ffffff;
+}
+
+
